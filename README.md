@@ -181,7 +181,7 @@ plt.show()
 
 
     
-![output_7_0](https://user-images.githubusercontent.com/36255172/145532822-30594595-69b0-4b42-88d0-431a4ac9e63e.png)
+![output_7_0](https://user-images.githubusercontent.com/36255172/145622913-3e8ce8df-40ca-4700-9037-3cada7dc55ed.png)
     
 
 
@@ -191,15 +191,11 @@ plt.show()
 ```python
 ff = Fourier(file_name='square_3d.xlsx', z_label='z', freq1=0.25, freq2=0.15, number_of_terms=5)
 fit_result = ff.fit()
-ff.fitFunc()
+print(ff.fitFunc())
 ```
 
-
-
-
-$\displaystyle - 53.7364005637131 \cos{\left(0.25 x \right)} + 38.1994739894838 \cos{\left(0.5 x \right)} - 22.1614095100097 \cos{\left(0.75 x \right)} + 9.98554579694824 \cos{\left(1.0 x \right)} - 3.12572366476257 \cos{\left(1.25 x \right)} - 21373.9488810488 \cos{\left(0.15 y \right)} + 13506.2170679994 \cos{\left(0.3 y \right)} - 6007.11892559254 \cos{\left(0.45 y \right)} + 1708.07776850681 \cos{\left(0.6 y \right)} - 237.475726815423 \cos{\left(0.75 y \right)} + 2.46393341310683 \cos{\left(0.25 x - 0.15 y \right)} + 2.47227923640621 \cos{\left(0.25 x + 0.15 y \right)} + 0.38205850666991 \cos{\left(0.5 x - 0.3 y \right)} + 0.374486259236903 \cos{\left(0.5 x + 0.3 y \right)} + 0.615553128663866 \cos{\left(0.75 x - 0.45 y \right)} + 0.621917274074822 \cos{\left(0.75 x + 0.45 y \right)} - 0.311859521957466 \cos{\left(1.0 x - 0.6 y \right)} - 0.316555977810864 \cos{\left(1.0 x + 0.6 y \right)} - 0.0507246353099343 \cos{\left(1.25 x - 0.75 y \right)} - 0.0479976087057799 \cos{\left(1.25 x + 0.75 y \right)} + 12433.6234526802$
-
-
+    -53.7364005637131*cos(0.25*x) + 38.1994739894838*cos(0.5*x) - 22.1614095100097*cos(0.75*x) + 9.98554579694824*cos(1.0*x) - 3.12572366476257*cos(1.25*x) - 21373.9488810488*cos(0.15*y) + 13506.2170679994*cos(0.3*y) - 6007.11892559254*cos(0.45*y) + 1708.07776850681*cos(0.6*y) - 237.475726815423*cos(0.75*y) + 2.46393341310683*cos(0.25*x - 0.15*y) + 2.47227923640621*cos(0.25*x + 0.15*y) + 0.38205850666991*cos(0.5*x - 0.3*y) + 0.374486259236903*cos(0.5*x + 0.3*y) + 0.615553128663866*cos(0.75*x - 0.45*y) + 0.621917274074822*cos(0.75*x + 0.45*y) - 0.311859521957466*cos(1.0*x - 0.6*y) - 0.316555977810864*cos(1.0*x + 0.6*y) - 0.0507246353099343*cos(1.25*x - 0.75*y) - 0.0479976087057799*cos(1.25*x + 0.75*y) + 12433.6234526802
+    
 
 
 ```python
@@ -219,7 +215,7 @@ plt.show()
 
 
     
-![output_10_0](https://user-images.githubusercontent.com/36255172/145532861-2229beb6-3130-41db-8a12-e5137e50e4b7.png)
+![output_10_0](https://user-images.githubusercontent.com/36255172/145622945-ceeadcee-cf1d-40c9-a66d-da6b69b1843a.png)
     
 
 
@@ -229,15 +225,11 @@ plt.show()
 ```python
 ff = Fourier(file_name='square_3d.xlsx', z_label='z', freq1=0.25, freq2=0.15, number_of_terms=20)
 fit_result = ff.fit()
-ff.fitFunc()
+print(ff.fitFunc())
 ```
 
-
-
-
-$\displaystyle 5453.97363194277 \cos{\left(0.25 x \right)} + 3096.4157373821 \cos{\left(0.5 x \right)} - 10423.7085869859 \cos{\left(0.75 x \right)} + 10080.7931168054 \cos{\left(1.0 x \right)} - 1941.53683588888 \cos{\left(1.25 x \right)} - 8417.57009120421 \cos{\left(1.5 x \right)} + 13870.0260060319 \cos{\left(1.75 x \right)} - 10589.8815345007 \cos{\left(2.0 x \right)} + 172.419140031617 \cos{\left(2.25 x \right)} + 12003.6310257316 \cos{\left(2.5 x \right)} - 20459.5775693331 \cos{\left(2.75 x \right)} + 22588.8053776129 \cos{\left(3.0 x \right)} - 19250.3070298191 \cos{\left(3.25 x \right)} + 13293.2509217136 \cos{\left(3.5 x \right)} - 7521.57371616911 \cos{\left(3.75 x \right)} + 3451.82526637215 \cos{\left(4.0 x \right)} - 1244.91239685382 \cos{\left(4.25 x \right)} + 330.327195096185 \cos{\left(4.5 x \right)} - 55.5055593757824 \cos{\left(4.75 x \right)} + 3.71888561074001 \cos{\left(5.0 x \right)} + 25411.7788254111 \cos{\left(0.15 y \right)} + 52544.2219993096 \cos{\left(0.3 y \right)} - 9792.55870624065 \cos{\left(0.45 y \right)} - 53496.0804232167 \cos{\left(0.6 y \right)} + 9025.15827797479 \cos{\left(0.75 y \right)} + 54784.4617595346 \cos{\left(0.9 y \right)} - 13287.249209991 \cos{\left(1.05 y \right)} - 55819.449675962 \cos{\left(1.2 y \right)} + 23473.2956825209 \cos{\left(1.35 y \right)} + 54151.5263866946 \cos{\left(1.5 y \right)} - 42019.6287487197 \cos{\left(1.65 y \right)} - 42244.3551605681 \cos{\left(1.8 y \right)} + 68880.9238182208 \cos{\left(1.95 y \right)} + 493.176188346702 \cos{\left(2.1 y \right)} - 80191.987069957 \cos{\left(2.25 y \right)} + 96585.3653178768 \cos{\left(2.4 y \right)} - 62172.8082993734 \cos{\left(2.55 y \right)} + 24473.0177668135 \cos{\left(2.7 y \right)} - 5629.17407933511 \cos{\left(2.85 y \right)} + 587.841752855767 \cos{\left(3.0 y \right)} + 634.382402232455 \cos{\left(0.25 x - 0.15 y \right)} + 636.407596037922 \cos{\left(0.25 x + 0.15 y \right)} - 153.648618431164 \cos{\left(0.5 x - 0.3 y \right)} - 155.638164383097 \cos{\left(0.5 x + 0.3 y \right)} + 66.2283412967681 \cos{\left(0.75 x - 0.45 y \right)} + 68.1596273749447 \cos{\left(0.75 x + 0.45 y \right)} - 35.0680767039013 \cos{\left(1.0 x - 0.6 y \right)} - 36.9198705282984 \cos{\left(1.0 x + 0.6 y \right)} + 20.5189703481922 \cos{\left(1.25 x - 0.75 y \right)} + 22.2726638379278 \cos{\left(1.25 x + 0.75 y \right)} - 12.9581416096079 \cos{\left(1.5 x - 0.9 y \right)} - 14.5974046647993 \cos{\left(1.5 x + 0.9 y \right)} + 8.50345779316019 \cos{\left(1.75 x - 1.05 y \right)} + 10.0151762006436 \cos{\left(1.75 x + 1.05 y \right)} - 5.61611622219212 \cos{\left(2.0 x - 1.2 y \right)} - 6.99058981696564 \cos{\left(2.0 x + 1.2 y \right)} + 3.74817805852899 \cos{\left(2.25 x - 1.35 y \right)} + 4.97888150417829 \cos{\left(2.25 x + 1.35 y \right)} - 2.57272540323416 \cos{\left(2.5 x - 1.5 y \right)} - 3.65690015876568 \cos{\left(2.5 x + 1.5 y \right)} + 1.69544142485103 \cos{\left(2.75 x - 1.65 y \right)} + 2.63380278589726 \cos{\left(2.75 x + 1.65 y \right)} - 1.11273823082276 \cos{\left(3.0 x - 1.8 y \right)} - 1.90865408395137 \cos{\left(3.0 x + 1.8 y \right)} + 0.716915305206564 \cos{\left(3.25 x - 1.95 y \right)} + 1.37745972667197 \cos{\left(3.25 x + 1.95 y \right)} - 0.431352013281622 \cos{\left(3.5 x - 2.1 y \right)} - 0.965309875593292 \cos{\left(3.5 x + 2.1 y \right)} + 0.230896790291396 \cos{\left(3.75 x - 2.25 y \right)} + 0.6494231768098 \cos{\left(3.75 x + 2.25 y \right)} - 0.132586795046948 \cos{\left(4.0 x - 2.4 y \right)} - 0.448660900254783 \cos{\left(4.0 x + 2.4 y \right)} + 0.0850889575596586 \cos{\left(4.25 x - 2.55 y \right)} + 0.311894204153997 \cos{\left(4.25 x + 2.55 y \right)} - 0.0316608837401495 \cos{\left(4.5 x - 2.7 y \right)} - 0.183768066878881 \cos{\left(4.5 x + 2.7 y \right)} + 0.0108551085993822 \cos{\left(4.75 x - 2.85 y \right)} + 0.101627612726815 \cos{\left(4.75 x + 2.85 y \right)} - 0.00160141840788963 \cos{\left(5.0 x - 3.0 y \right)} - 0.0429334528793861 \cos{\left(5.0 x + 3.0 y \right)} - 51243.3578917042$
-
-
+    5453.97363194277*cos(0.25*x) + 3096.4157373821*cos(0.5*x) - 10423.7085869859*cos(0.75*x) + 10080.7931168054*cos(1.0*x) - 1941.53683588888*cos(1.25*x) - 8417.57009120421*cos(1.5*x) + 13870.0260060319*cos(1.75*x) - 10589.8815345007*cos(2.0*x) + 172.419140031617*cos(2.25*x) + 12003.6310257316*cos(2.5*x) - 20459.5775693331*cos(2.75*x) + 22588.8053776129*cos(3.0*x) - 19250.3070298191*cos(3.25*x) + 13293.2509217136*cos(3.5*x) - 7521.57371616911*cos(3.75*x) + 3451.82526637215*cos(4.0*x) - 1244.91239685382*cos(4.25*x) + 330.327195096185*cos(4.5*x) - 55.5055593757824*cos(4.75*x) + 3.71888561074001*cos(5.0*x) + 25411.7788254111*cos(0.15*y) + 52544.2219993096*cos(0.3*y) - 9792.55870624065*cos(0.45*y) - 53496.0804232167*cos(0.6*y) + 9025.15827797479*cos(0.75*y) + 54784.4617595346*cos(0.9*y) - 13287.249209991*cos(1.05*y) - 55819.449675962*cos(1.2*y) + 23473.2956825209*cos(1.35*y) + 54151.5263866946*cos(1.5*y) - 42019.6287487197*cos(1.65*y) - 42244.3551605681*cos(1.8*y) + 68880.9238182208*cos(1.95*y) + 493.176188346702*cos(2.1*y) - 80191.987069957*cos(2.25*y) + 96585.3653178768*cos(2.4*y) - 62172.8082993734*cos(2.55*y) + 24473.0177668135*cos(2.7*y) - 5629.17407933511*cos(2.85*y) + 587.841752855767*cos(3.0*y) + 634.382402232455*cos(0.25*x - 0.15*y) + 636.407596037922*cos(0.25*x + 0.15*y) - 153.648618431164*cos(0.5*x - 0.3*y) - 155.638164383097*cos(0.5*x + 0.3*y) + 66.2283412967681*cos(0.75*x - 0.45*y) + 68.1596273749447*cos(0.75*x + 0.45*y) - 35.0680767039013*cos(1.0*x - 0.6*y) - 36.9198705282984*cos(1.0*x + 0.6*y) + 20.5189703481922*cos(1.25*x - 0.75*y) + 22.2726638379278*cos(1.25*x + 0.75*y) - 12.9581416096079*cos(1.5*x - 0.9*y) - 14.5974046647993*cos(1.5*x + 0.9*y) + 8.50345779316019*cos(1.75*x - 1.05*y) + 10.0151762006436*cos(1.75*x + 1.05*y) - 5.61611622219212*cos(2.0*x - 1.2*y) - 6.99058981696564*cos(2.0*x + 1.2*y) + 3.74817805852899*cos(2.25*x - 1.35*y) + 4.97888150417829*cos(2.25*x + 1.35*y) - 2.57272540323416*cos(2.5*x - 1.5*y) - 3.65690015876568*cos(2.5*x + 1.5*y) + 1.69544142485103*cos(2.75*x - 1.65*y) + 2.63380278589726*cos(2.75*x + 1.65*y) - 1.11273823082276*cos(3.0*x - 1.8*y) - 1.90865408395137*cos(3.0*x + 1.8*y) + 0.716915305206564*cos(3.25*x - 1.95*y) + 1.37745972667197*cos(3.25*x + 1.95*y) - 0.431352013281622*cos(3.5*x - 2.1*y) - 0.965309875593292*cos(3.5*x + 2.1*y) + 0.230896790291396*cos(3.75*x - 2.25*y) + 0.6494231768098*cos(3.75*x + 2.25*y) - 0.132586795046948*cos(4.0*x - 2.4*y) - 0.448660900254783*cos(4.0*x + 2.4*y) + 0.0850889575596586*cos(4.25*x - 2.55*y) + 0.311894204153997*cos(4.25*x + 2.55*y) - 0.0316608837401495*cos(4.5*x - 2.7*y) - 0.183768066878881*cos(4.5*x + 2.7*y) + 0.0108551085993822*cos(4.75*x - 2.85*y) + 0.101627612726815*cos(4.75*x + 2.85*y) - 0.00160141840788963*cos(5.0*x - 3.0*y) - 0.0429334528793861*cos(5.0*x + 3.0*y) - 51243.3578917042
+    
 
 
 ```python
@@ -257,7 +249,7 @@ plt.show()
 
 
     
-![output_13_0](https://user-images.githubusercontent.com/36255172/145532921-eeff63f9-1e8e-447d-a2b6-68c75cfc6443.png)
+![output_13_0](https://user-images.githubusercontent.com/36255172/145622963-0351d05d-5904-488a-9dcb-0f23f42b0f86.png)
     
 
 
@@ -276,7 +268,7 @@ plt.show()
 
 
     
-![output_15_0](https://user-images.githubusercontent.com/36255172/145532963-503ee90d-5df3-41e7-ab0c-cdcb8997695e.png)
+![output_15_0](https://user-images.githubusercontent.com/36255172/145622991-f8ccca70-d01b-4854-b862-a212b868c4ca.png)
     
 
 
@@ -284,15 +276,11 @@ plt.show()
 ```python
 ff = Fourier(file_name='gauss_3d.xlsx', z_label='z', freq1=0.50, freq2=0.50, number_of_terms=1)
 fit_result = ff.fit()
-ff.fitFunc()
+print(ff.fitFunc())
 ```
 
-
-
-
-$\displaystyle 1.06204154270031 \cos{\left(0.5 x \right)} + 1.06204154270031 \cos{\left(0.5 y \right)} + 0.564645486689948 \cos{\left(0.5 x - 0.5 y \right)} + 0.564646557430445 \cos{\left(0.5 x + 0.5 y \right)} + 0.998795606530294$
-
-
+    1.06204154270031*cos(0.5*x) + 1.06204154270031*cos(0.5*y) + 0.564645486689948*cos(0.5*x - 0.5*y) + 0.564646557430445*cos(0.5*x + 0.5*y) + 0.998795606530294
+    
 
 
 ```python
@@ -312,7 +300,7 @@ plt.show()
 
 
     
-![output_17_0](https://user-images.githubusercontent.com/36255172/145532976-d0b84043-511c-4ac1-a8d6-556b4493aca7.png)
+![output_17_0](https://user-images.githubusercontent.com/36255172/145623016-54bfdb2d-e238-4a80-afe4-959b4d342afd.png)
     
 
 
@@ -354,7 +342,7 @@ plt.show()
 
 
     
-![output_22_0](https://user-images.githubusercontent.com/36255172/145532999-42163fd3-d6f8-45e5-9dc7-dc4cc80ca5f6.png)
+![output_22_0](https://user-images.githubusercontent.com/36255172/145623042-7b51bd6f-97c2-4ab8-b1ad-f9b4cd587e6e.png)
     
 
 
@@ -389,7 +377,7 @@ plt.show()
 
 
     
-![output_24_0](https://user-images.githubusercontent.com/36255172/145533030-589a9ec0-10fd-444b-8269-d1404bbce77b.png)
+![output_24_0](https://user-images.githubusercontent.com/36255172/145623063-f5f81395-6706-45e6-bbb1-65d9af141400.png)
     
 
 
@@ -482,7 +470,7 @@ ax1.set_ylim(-10,10)
 
 
     
-![output_30_1](https://user-images.githubusercontent.com/36255172/145533071-55c525c2-5436-4101-804a-b76c4fcd8212.png)
+![output_30_1](https://user-images.githubusercontent.com/36255172/145623092-8479cf00-d626-4b3a-bbb7-4b7621d2cc1a.png)
     
 
 
@@ -566,7 +554,7 @@ ax1.set_ylim(-10,10)
 
 
     
-![output_35_1](https://user-images.githubusercontent.com/36255172/145533091-5f9d86ff-3a01-408f-82af-a2b09fbddc4b.png)
+![output_35_1](https://user-images.githubusercontent.com/36255172/145623099-0ba5c738-a138-41ff-aa5f-013f918c66a2.png)
     
 
 
