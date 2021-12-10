@@ -1,7 +1,9 @@
-<center><h3>Using Newton-Raphson Method to Solve for Points on 3D Fourier Series Fitted Surfaces</h3></center>
-<center>By</center>
-<center>Kyle Lynch</center>
-<center>2021-12-09</center>
+<h3>Using Newton-Raphson Method to Solve for Points on 3D Fourier Series Fitted Surfaces</h3>
+<p align="center">
+    By<br>
+    Kyle Lynch</center><br>
+    2021-12-09<br>
+</p>
 
 #### In this notebook I'll discuss how to:
 1. Fit 3D data with a Fourier cosine series
