@@ -1,4 +1,4 @@
-<h3>Using Newton-Raphson Method to Solve for Points on 3D Fourier Series Fitted Surfaces</h3>
+<h2><p align="center">Using Newton-Raphson Method to Solve 3D Fourier Series Fitted Surfaces</p></h2>
 <p align="center">
     By<br>
     Kyle Lynch</center><br>
@@ -110,19 +110,6 @@ df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -466,8 +453,6 @@ ax1.set_ylim(-10,10)
 
 
 
-    (-10.0, 10.0)
-
 
 
 
@@ -549,8 +534,6 @@ ax1.set_ylim(-10,10)
 
 
 
-
-    (-10.0, 10.0)
 
 
 
