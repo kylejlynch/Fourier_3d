@@ -10,6 +10,7 @@
 2. Use Newton-Raphson method to iteratively solve fitted equation that extracts X and Y values that solve for a given Z
 
 Fourier series are well known for their ability to fit almost any distribution of data. In this work I'll explain how to fit 3-dimensional data with a Fourier cosine series, followed by using an numerical approximation method known as Newton-Raphson method to solve for points on the resulting Fourier surface. I go a little more in depth on the basics of Fourier series and show how to do forecasting with Fourier series [here](https://github.com/kylejlynch/Fourier_Forecasting). I have an additional notebook explaining 2D Newton-Raphson [here](https://github.com/kylejlynch/Newton_Raphson).
+As an example to highlight the difference between a 2D and 3D Fourier Series, here I fit both a 2D and 3D square wave (we'll fit the 3D square wave in the code below).
 
 
 ```python
