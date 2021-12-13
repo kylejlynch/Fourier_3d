@@ -1,7 +1,7 @@
 <h2><p align="center">Using Newton-Raphson Method to Solve 3D Fourier Series Fitted Surfaces</p></h2>
 <p align="center">
     By<br>
-    Kyle Lynch</center><br>
+    Kyle Lynch<br>
     2021-12-09<br>
 </p>
 
